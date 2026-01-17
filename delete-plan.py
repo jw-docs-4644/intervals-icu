@@ -9,7 +9,7 @@ ATHLETE_ID = os.getenv("INTERVALS_ATHLETE_ID")
 AUTH = ('API_KEY', API_KEY)
 BASE_URL = f"https://intervals.icu/api/v1/athlete/{ATHLETE_ID}/events"
 
-# Set the date range for your 12-week plan
+# Set the date range for the events you wan t to delete
 START_DATE = "2026-01-18"
 END_DATE = "2026-04-15"
 
