@@ -39,17 +39,19 @@ Modify the file workouts.csv and replace the workouts that are there with your o
 
 The csv file that stores the workouts is kind of picky. Here's a description from Gemini that hopefully catches the nuances of it:
 
-Requirement,Correct Format,Type,Impact
-Date,2026-02-14,Required,Places the workout on the correct calendar day.
-Name & Type,"Easy Run, Run",Required,Identifies the sport and title for your watch.
-The Hyphen (-),- 10km...,Required,"The Trigger: Without a leading hyphen, no bar graph is created."
-Target Keyword,...Pace,Required,Forces the watch to use the Pace Gauge instead of HR/Power.
-Repeat Syntax,Repeat 2x,Required,"Creates the nested ""skyline"" blocks for intervals/hills."
-Double Quotes,"""...""",Required,"Wraps the text so \n or , don't break the file structure."
-Step Distance,- 5km...,Required,Required for Intervals.icu to tally your weekly distance.
-Broad Ranges,50-90% Pace,Optional,"Prevents the watch from ""beeping"" if you are off-pace."
-Step Labels,...Hill Effort,Optional,"Labels the step on your watch screen (e.g., ""Hill Effort"")."
-Coaching Notes,Conversational pace,Optional,Extra text for your reference; does not affect the bar graph.
+| Requirement | Correct Format | Type | Impact |
+| :--- | :--- | :--- | :--- |
+| Date | 2026-02-14 | Required | Places the workout on the correct calendar day. |
+| Name & Type | Easy Run, Run | Required | Identifies the sport and title for your watch. |
+| The Hyphen (-) | - 10km... | Required | The Trigger: Without a leading hyphen, no bar graph is created. |
+| Target Keyword | ...Pace | Required | Forces the watch to use the Pace Gauge instead of HR/Power. |
+| Repeat Syntax | Repeat 2x | Required | Creates the nested "skyline" blocks for intervals/hills. |
+| Double Quotes | "..." | Required | Wraps the text so \n or , don't break the file structure. |
+| Step Distance | - 5km... | Required | Required for Intervals.icu to tally your weekly distance. |
+| Broad Ranges | 50-90% Pace | Optional | Prevents the watch from "beeping" if you are off-pace. |
+| Step Labels | ...Hill Effort | Optional | Labels the step on your watch screen (e.g., "Hill Effort"). |
+| Coaching Notes | Conversational pace | Optional | Extra text for your reference; does not affect the bar graph. |
+
 
 #### Pro-Tip: The "Zero-Space" Rule
 
