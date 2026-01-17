@@ -1,0 +1,12 @@
+# Python environment
+venv/
+env/
+.env
+
+# Distribution / backups
+__pycache__/
+*.py[cod]
+.DS_Store
+
+#CSV Lock Files
+.~lock.*.csv#
