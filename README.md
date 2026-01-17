@@ -5,7 +5,7 @@ This python script can be used to push workout data to intervals.icu through the
 # Pre-requisites
 
 - Python installed
-- Basic knowledge of python
+- Ability to create and start a venv for python scripts to run in
 - An account with [intervals.icu](https://intervals.icu)
   - user id
   - api key
